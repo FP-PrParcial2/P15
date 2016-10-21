@@ -15,7 +15,7 @@ public class PPProblema015 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-       int x[][];
+     int x[][];
        x=new int [10][10];
        Random random;
        random= new Random();
@@ -23,11 +23,17 @@ public class PPProblema015 {
         for(int i=0; i< x.length; i++){
             for(int j=0; j< x.length; j++)
                 x[i][j]=random.nextInt(); 
-                
+            int j=1;
+             
+            System.out.println(x[i][j] + "");  
         }
         
     }
 }
+        
+        
+    
+  
        
 
 
